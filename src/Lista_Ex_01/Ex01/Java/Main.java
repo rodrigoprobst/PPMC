@@ -1,21 +1,12 @@
-package Ex01;
-
+package Lista_Ex_01.Ex01.Java;
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import javax.swing.GroupLayout;
-import javax.swing.GroupLayout.Alignment;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.RepaintManager;
-import javax.swing.SwingUtilities;
-import javax.swing.border.EmptyBorder;
 
 public class Main extends JFrame{
 
@@ -114,8 +105,8 @@ public class Main extends JFrame{
             @Override
             public void actionPerformed(ActionEvent event) {
             	 if (t2.getLabel() != null) {
-                 	if (thread2.isAlive()) {
-     					thread2.run();
+                 	if (t2.isPause()) {
+     					t2.setPause();
      				}
                  } else {
                  	t2.setLabel(label2);
@@ -127,29 +118,15 @@ public class Main extends JFrame{
         pause1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent event) {
-            	/*if(!t1.isPause())
+            	if(!t1.isPause())
             		 t1.setPause();
-            	*/
-            	try {
-					thread1.wait();
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
            }
         });
         pause2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent event) {
-                /*if(!t2.isPause())
+                if(!t2.isPause())
                 	t2.setPause();
-                */
-            	try {
-					thread2.wait();
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
            }
         });
         

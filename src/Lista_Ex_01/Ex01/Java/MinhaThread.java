@@ -1,5 +1,4 @@
-package Ex01;
-
+package Lista_Ex_01.Ex01.Java;
 import javax.swing.JLabel;
 
 public class MinhaThread implements Runnable{

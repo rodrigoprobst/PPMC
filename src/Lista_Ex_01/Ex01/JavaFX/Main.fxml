@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+<?import de.jensd.fx.glyphs.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lista_Ex_01.Ex01.JavaFX.MainController">
+   <children>
+      <Pane layoutX="-8.0" layoutY="-7.0" prefHeight="362.0" prefWidth="606.0">
+         <children>
+            <FontAwesomeIcon glyphStyle="-fx-fill: linear-gradient(#ffffff, #d2d2d2); -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 4 , 0.0 , 1 , 1 );" iconName="CIRCLE" onMouseClicked="#play1" layoutX="126.0" layoutY="148.0" size="6em" />
+            <FontAwesomeIcon fx:id="play1" glyphStyle="-fx-fill: linear-gradient(#70b4e5 0%, #247cbc 70%, #2c85c1 85%);" iconName="PLAY" layoutX="148.0" layoutY="135.0" onMouseClicked="#play1" size="3em" />
+           	<FontAwesomeIcon glyphStyle="-fx-fill: linear-gradient(#ffffff, #d2d2d2); -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 4 , 0.0 , 1 , 1 );" iconName="CIRCLE" onMouseClicked="#pause1" layoutX="226.0" layoutY="148.0" size="6em" />
+            <FontAwesomeIcon fx:id="pause1" glyphStyle="-fx-fill: linear-gradient(#70b4e5 0%, #247cbc 70%, #2c85c1 85%);" iconName="PAUSE" layoutX="241.0" layoutY="135.0" onMouseClicked="#pause1" size="3em" />            
+            <FontAwesomeIcon glyphStyle="-fx-fill: linear-gradient(#ffffff, #d2d2d2); -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 4 , 0.0 , 1 , 1 );" iconName="CIRCLE" onMouseClicked="#stop1" layoutX="326.0" layoutY="148.0" size="6em" />
+            <FontAwesomeIcon fx:id="stop1" glyphStyle="-fx-fill: linear-gradient(#70b4e5 0%, #247cbc 70%, #2c85c1 85%);" iconName="STOP" layoutX="341.0" layoutY="135.0" onMouseClicked="#stop1" size="3em" />
+            <FontAwesomeIcon glyphStyle="-fx-fill: linear-gradient(#ffffff, #d2d2d2); -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 4 , 0.0 , 1 , 1 );" iconName="CIRCLE" onMouseClicked="#stop2" layoutX="325.0" layoutY="277.0" size="6em" />
+            <FontAwesomeIcon fx:id="stop2" glyphStyle="-fx-fill: linear-gradient(#70b4e5 0%, #247cbc 70%, #2c85c1 85%);" iconName="STOP" layoutX="341.0" layoutY="264.0" onMouseClicked="#stop2" size="3em" />
+            <FontAwesomeIcon glyphStyle="-fx-fill: linear-gradient(#ffffff, #d2d2d2); -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 4 , 0.0 , 1 , 1 );" iconName="CIRCLE" onMouseClicked="#pause2" layoutX="225.0" layoutY="278.0" size="6em" />
+            <FontAwesomeIcon fx:id="pause2" glyphStyle="-fx-fill: linear-gradient(#70b4e5 0%, #247cbc 70%, #2c85c1 85%);" iconName="PAUSE" layoutX="240.0" layoutY="265.0" onMouseClicked="#pause2" size="3em" />
+      		<FontAwesomeIcon glyphStyle="-fx-fill: linear-gradient(#ffffff, #d2d2d2); -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 4 , 0.0 , 1 , 1 );" iconName="CIRCLE" onMouseClicked="#play2" layoutX="126.0" layoutY="276.0" size="6em" />
+      		<FontAwesomeIcon fx:id="paly2" glyphStyle="-fx-fill: linear-gradient(#70b4e5 0%, #247cbc 70%, #2c85c1 85%);" iconName="PLAY" layoutX="148.0" layoutY="263.0" onMouseClicked="#play2" size="3em" />
+			
+            <Label layoutX="215.0" layoutY="42.0" text="Thread 1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="215.0" layoutY="173.0" text="Thread 2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="Thread1" layoutX="460.0" layoutY="57.0" text="0">
+               <font>
+                  <Font size="90.0" />
+               </font>
+            </Label>
+            <Label fx:id="Thread2" layoutX="460.0" layoutY="186.0" text="0">
+               <font>
+                  <Font size="90.0" />
+               </font>
+            </Label>
+            
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
