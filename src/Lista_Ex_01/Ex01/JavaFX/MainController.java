@@ -17,9 +17,6 @@ public class MainController implements Initializable {
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		// TODO Auto-generated method stub
-		JLabel label1 = new JLabel("0");
-		label1.setBounds(350, 20, 231, 70);
-		label1.setFont(new Font("Arial", Font.BOLD, 90)); 
 	}
 	private int fim1, fim2;
 	@FXML private Label Thread1,  Thread2;
@@ -46,7 +43,7 @@ public class MainController implements Initializable {
 		return null;
 	}
 	
-};
+	};
 	private Service<Void> backgroundThread2 = new Service<Void>(){
 
 		@Override

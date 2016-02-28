@@ -5,3 +5,11 @@
 .label{
 	-fx-text-fill: white;
 }
+
+#play1,#play2,#pause1,#pause2,#stop1,#stop2{
+	-fx-fill: linear-gradient(#70b4e5 0%, #247cbc 70%, #2c85c1 85%);
+}
+
+#circle1,#circle2,#circle3,#circle4,#circle5,#circle6{
+	-fx-fill: linear-gradient(#ffffff, #d2d2d2); -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 4 , 0.0 , 1 , 1 );
+}
