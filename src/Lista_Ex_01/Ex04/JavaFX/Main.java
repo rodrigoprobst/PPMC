@@ -1,4 +1,4 @@
-package Lista_Ex_01.Ex02.JavaFX;
+package Lista_Ex_01.Ex04.JavaFX;
 	
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

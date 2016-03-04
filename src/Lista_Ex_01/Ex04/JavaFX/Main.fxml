@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lista_Ex_01.Ex02.JavaFX.MainController">
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Lista_Ex_01.Ex04.JavaFX.MainController">
    <children>
       <Pane layoutY="-48.0" prefHeight="1000.0" prefWidth="1200.0" style="-fx-background-color: green;">
          <children>
@@ -73,6 +73,34 @@
             <Pane fx:id="car1" layoutX="583.0" layoutY="1055.0" prefHeight="125.0" prefWidth="250.0" rotate="270.0" />
             <FontAwesomeIcon iconName="PLAY" layoutX="91.0" layoutY="171.0" onMouseClicked="#start" size="10em" />
             <FontAwesomeIcon iconName="PLAY" layoutX="1051.0" layoutY="171.0" onMouseClicked="#startcar" size="10em" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="910.0" layoutY="709.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Circle fx:id="green11" fill="DODGERBLUE" layoutX="960.0" layoutY="871.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow11" fill="DODGERBLUE" layoutX="960.0" layoutY="809.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red11" fill="DODGERBLUE" layoutX="960.0" layoutY="748.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="954.0" layoutY="755.0" onMouseClicked="#startcar" size="2em" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="954.0" layoutY="817.0" onMouseClicked="#startcar" size="2em" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="954.0" layoutY="879.0" onMouseClicked="#startcar" size="2em" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" layoutX="810.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Circle fx:id="red21" fill="DODGERBLUE" layoutX="849.0" layoutY="140.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow21" fill="DODGERBLUE" layoutX="910.0" layoutY="140.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="green21" fill="DODGERBLUE" layoutX="972.0" layoutY="140.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="840.0" layoutY="146.0" onMouseClicked="#startcar" rotate="270.0" size="2em" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="902.0" layoutY="146.0" onMouseClicked="#startcar" rotate="270.0" size="2em" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="964.0" layoutY="146.0" onMouseClicked="#startcar" rotate="270.0" size="2em" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="200.0" layoutX="189.0" layoutY="90.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+            <Circle fx:id="green31" fill="DODGERBLUE" layoutX="239.0" layoutY="129.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow31" fill="DODGERBLUE" layoutX="239.0" layoutY="190.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red31" fill="DODGERBLUE" layoutX="239.0" layoutY="252.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="227.0" layoutY="261.0" onMouseClicked="#startcar" rotate="180.0" size="2em" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="227.0" layoutY="199.0" onMouseClicked="#startcar" rotate="180.0" size="2em" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="227.0" layoutY="137.0" onMouseClicked="#startcar" rotate="180.0" size="2em" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="100.0" layoutX="188.0" layoutY="808.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+            <Circle fx:id="green41" fill="DODGERBLUE" layoutX="227.0" layoutY="858.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellow41" fill="DODGERBLUE" layoutX="287.0" layoutY="858.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="red41" fill="DODGERBLUE" layoutX="349.0" layoutY="858.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="340.0" layoutY="870.0" onMouseClicked="#startcar" rotate="90.0" size="2em" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="278.0" layoutY="870.0" onMouseClicked="#startcar" rotate="90.0" size="2em" />
+            <FontAwesomeIcon iconName="PLAY" layoutX="216.0" layoutY="870.0" onMouseClicked="#startcar" rotate="90.0" size="2em" />
          </children>
       </Pane>
       <Pane fx:id="car2" layoutX="1200.0" layoutY="270.0" prefHeight="150.0" prefWidth="250.0" />

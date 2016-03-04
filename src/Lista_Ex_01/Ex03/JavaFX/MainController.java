@@ -1,4 +1,4 @@
-package Lista_Ex_01.Ex02.JavaFX;
+package Lista_Ex_01.Ex03.JavaFX;
 
 import java.net.URL;
 import java.util.Random;
@@ -490,7 +490,7 @@ public class MainController implements Initializable{
 							setPauseCar1();
 							iniciaSemáforo(getRed1(), getGreen1(), getYellow1());
 							setPause1();
-							setPause3();
+							setPause2();
 						}else
 							Thread.sleep(1000);
 					}while(true);
@@ -510,7 +510,7 @@ public class MainController implements Initializable{
 							setPauseCar2();
 							iniciaSemáforo(getRed2(), getGreen2(), getYellow2());
 							setPause2();
-							setPause4();
+							setPause1();
 						}else
 							Thread.sleep(1000);
 					}while(true);
@@ -530,7 +530,7 @@ public class MainController implements Initializable{
 							setPauseCar3();
 							iniciaSemáforo(getRed3(), getGreen3(), getYellow3());
 							setPause3();
-							setPause2();
+							setPause4();
 						}else
 							Thread.sleep(1000);
 					}while(true);
@@ -551,7 +551,7 @@ public class MainController implements Initializable{
 							setPauseCar4();
 							iniciaSemáforo(getRed4(), getGreen4(), getYellow4());
 							setPause4();
-							setPause1();
+							setPause3();
 						}else
 							Thread.sleep(1000);
 					}while(true);
@@ -562,6 +562,7 @@ public class MainController implements Initializable{
 
 	public void start() throws InterruptedException{
 		setPause1();
+		setPause3();
 	}
 	public void startcar(){
 		car1Thread.restart();
